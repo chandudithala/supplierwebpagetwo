@@ -475,6 +475,7 @@ header .navbar-light .navbar-nav .nav-link:hover, header .navbar-light .navbar-n
   border-radius: 10px;
 }
 .cer_img img {
+  height: auto;
   transition: ease-in-out 0.4s;
 }
 .certificate_section_in:hover .cer_img {
