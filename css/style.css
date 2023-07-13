@@ -804,6 +804,7 @@ color:#0e76a8;
   text-align: center;
 }
 .album_section img{
+  height: 100%;
   padding:0 10px;
 }
 .certification_section{
