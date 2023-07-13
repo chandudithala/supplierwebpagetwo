@@ -1,0 +1,146 @@
+@media only screen and (max-width: 1175px){ 
+.logo img{
+  width: 250px;
+}
+header .navbar-light .navbar-nav .nav-link {
+position: relative;
+padding: 6px 13px !important;
+margin: 0 6px;
+transition: all ease-in-out 0.4s;
+font-size: 15px;
+}
+header .sub_links .navbar-light .navbar-nav .nav-link{
+  font-size: 13px !important;
+}
+}
+@media only screen and (max-width: 1024px) {
+.Banner_section .slider, .Banner_section .slide {
+    height: 34vh;
+}
+.slide .slide__content--headings h1 {
+  font-size:45px;
+  margin: 10px 0;
+}
+.sub_categories li {
+  font-size: 13px;
+}
+.card {
+  min-height: 410px;
+}
+.product_slider .card {
+  min-height: 425px;
+}
+.footer_top .footer_logo img {
+  width: 160px;
+}
+}
+
+@media only screen and (max-width: 1360px) and (min-width:1025px)  {
+  .Banner_section .slider, .Banner_section .slide {
+    height: 45vh;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) {
+.navbar-nav{
+  padding: 5px 0;
+  text-align: center;
+}
+.footer_logo{
+  display: none;
+}
+.footer_top {
+  background:none;
+  padding:0;
+}
+.sub_categories li {
+  font-size: 15px;
+}
+.primary_btn {
+  width: 100%;
+  margin: 0 0 14px !important;
+}
+.secondary_btn {
+  width: 100%;
+  margin: 0 !important;
+}
+.mobile_sub_links_show{
+  display:block;
+}
+.mobile_sub_links_show_in{
+  display:none;
+  background: #f1f1f1;
+  padding: 15px 0 5px;
+  border-radius: 10px;
+}
+.mobile_sub_links_hide{
+  display: none;
+}
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) {
+.sub_links .form-control{
+    width: 74%;
+}
+.sub_links .btn-success{
+  margin: 0 !important;
+}
+.sticky_icons{
+  display: none;
+}
+.nav-item{
+  margin:0 0 12px;
+  position: relative;
+}
+.space {
+  padding:30px 0 20px;
+}
+.space h2 {
+  font-size: 30px;
+}
+.Banner_section .slider, .Banner_section .slide {
+  height:auto;
+}
+.slide .slide__content--headings h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+.footer_top {
+  width: 100%;
+  padding:0 0 0 10px;
+  background:none;
+  margin:0;
+}
+.footer_top p {
+  max-width: 100%;
+}
+.footer_top ul li {
+  width: 100%;
+  margin: 0 0 25px;
+}
+.footer_top ul li ul li{
+  margin: 0;
+}
+.back_top {
+  font-size: 40px;
+}
+
+.faq_content h2{
+  font-size: 15px;
+}
+/****** Product Details Page *************************/
+.basic_info p span {
+    width: 50%;
+}
+.basic_info p small {
+  width: 50%;
+}
+ /****** Product Details Page *************************/
+.contact_main .row {
+  padding: 30px 10px;
+}
+ 
+
+}
