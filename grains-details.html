@@ -25,7 +25,7 @@
     </div>
     <!-- Sticky Social Icons Ends Here--> 
     <!-- Header Start Here-->  
-    <header >
+    <header>
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light p-0">
                 <a class="navbar-brand logo" href="index.html"><img src="images/logo1.png" alt="logo"></a>
@@ -44,36 +44,121 @@
                     <li class="nav-item">
                         <a class="nav-link" href="about.html">About Company</a>
                     </li>
-                    <li class="nav-item mobile_sub_links_show">
-                      <a class="cat_link" href="javascript:void(0)">Categories <span class="dropdown_arrow"></span></a>
+                    <!-- Mobile Show coding Start-->
+                    <li class="nav-item mobile_sub_links_show cat_link">
+                      <a class="nav-link product_link" href="products.html">Products </a>
+                      <span class="dropdown_arrow product_link_arrow"></span>
                         <ul class="navbar-nav mr-auto mobile_sub_links_show_in cat_open">
                           <li class="nav-item">
-                            <a class="nav-link" href="cashewnut-details.html">Cashew Nuts</a>
+                            <a class="nav-link product_link_in" href="cashewnut-details.html">Cashew Nuts</a><span class="dropdown_arrow sub_menu"></span>
+                              <ul class="sub_menu_drop">
+                                <li><a class="nav-link" href="cashewnut-details.html#broken_cashew">Broken Cashew Nuts</a></li>
+                                    <li><a class="nav-link" href="cashewnut-details.html#bubblegum_cashew">Bubblegum Cashew Nuts</a></li>
+                                    <li><a class="nav-link" href="cashewnut-details.html#roasted_cashew">Roasted And Salted Cashew Nuts</a></li>
+                              </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="chillies-details.html">Chillies</a>
+                            <a class="nav-link product_link_in" href="chillies-details.html">Chillies</a><span class="dropdown_arrow sub_menu"></span>
+                              <ul class="sub_menu_drop">
+                                <li><a class="nav-link" href="chillies-details.html#guntur_chilli">Guntur Chilli</a></li>
+                                  <li><a class="nav-link" href="chillies-details.html#kanthari_chilli">Kanthari Chilli</a></li>
+                                  <li><a class="nav-link" href="chillies-details.html#kashmiri_chilli">Kashmiri Chilli</a></li>                                  
+                              </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="grains-details.html">Grains</a>
+                            <a class="nav-link product_link_in" href="grains-details.html">Grains</a><span class="dropdown_arrow sub_menu"></span>
+                            <ul class="sub_menu_drop">
+                              <li><a class="nav-link" href="grains-details.html#wheat_grain">Wheat Grain</a></li>
+                              <li><a class="nav-link" href="grains-details.html#yellow_maize_seeds">Yellow Maize Seeds</a></li>
+                              <li><a class="nav-link" href="grains-details.html#sorghum_grain">Sorghum Grain</a></li>                                  
+                            </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="almond-details.html">Almond Nuts</a>
+                            <a class="nav-link product_link_in" href="almond-details.html">Almond Nuts</a><span class="dropdown_arrow sub_menu"></span>
+                            <ul class="sub_menu_drop">
+                              <li><a class="nav-link" href="almond-details.html#almond_nuts">Nachos Cheese Almond Nut</a></li>
+                              <li><a class="nav-link" href="almond-details.html#cal_almond_nuts">California Almond Nut</a></li>
+                              <li><a class="nav-link" href="almond-details.html#blueberry_nuts">Blueberry Almond Nut</a></li>                                  
+                            </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="dried-berries-details.html">dried berries</a>
+                            <a class="nav-link product_link_in" href="dried-berries-details.html">dried berries</a><span class="dropdown_arrow sub_menu"></span>
+                            <ul class="sub_menu_drop">
+                              <li><a class="nav-link" href="dried-berries-details.html#strawberry_dry">Strawberry Dried Fruit</a></li>
+                              <li><a class="nav-link" href="dried-berries-details.html#dehybrated_dry">Dehydrated Dry Cranberry</a></li>
+                              <li><a class="nav-link" href="dried-berries-details.html#peaches_dry_fruit">peaches Dried Fruit</a></li>                                  
+                            </ul>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="drydates-details.html">Dry Dates</a>
+                            <a class="nav-link product_link_in" href="drydates-details.html">Dry Dates</a><span class="dropdown_arrow sub_menu"></span>
+                            <ul class="sub_menu_drop">
+                              <li><a class="nav-link" href="drydates-details.html#black_dry_date">Black Dry Date</a></li>
+                              <li><a class="nav-link" href="drydates-details.html#dried_safavi_date">Dried Safavi Date</a></li>
+                              <li><a class="nav-link" href="drydates-details.html#yellow_dry_date">Yellow Dried Date</a></li>                                  
+                            </ul>
                           </li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="products.html">Products</a>
+                    <!-- Mobile show coding Ends-->
+  
+                    <!-- Mobile Hide coding Start-->
+                    <li class="nav-item dropdown mobile_sub_links_hide">
+                      <a class="nav-link" href="products.html"  > Products </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="cashewnut-details.html">Cashew Nuts</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="cashewnut-details.html#broken_cashew">Broken Cashew Nuts</a></li>
+                                  <li><a class="dropdown-item" href="cashewnut-details.html#bubblegum_cashew">Bubblegum Cashew Nuts</a></li>
+                                  <li><a class="dropdown-item" href="cashewnut-details.html#roasted_cashew">Roasted And Salted Cashew Nuts</a></li>                                  
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="chillies-details.html">Chillies</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="chillies-details.html#guntur_chilli">Guntur Chilli</a></li>
+                                  <li><a class="dropdown-item" href="chillies-details.html#kanthari_chilli">Kanthari Chilli</a></li>
+                                  <li><a class="dropdown-item" href="chillies-details.html#kashmiri_chilli">Kashmiri Chilli</a></li>                                  
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="grains-details.html">Grains</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="grains-details.html#wheat_grain">Wheat Grain</a></li>
+                                  <li><a class="dropdown-item" href="grains-details.html#yellow_maize_seeds">Yellow Maize Seeds</a></li>
+                                  <li><a class="dropdown-item" href="grains-details.html#sorghum_grain">Sorghum Grain</a></li>                                  
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="almond-details.html">Almond Nuts</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="almond-details.html#almond_nuts">Nachos Cheese Almond Nut</a></li>
+                                  <li><a class="dropdown-item" href="almond-details.html#cal_almond_nuts">California Almond Nut</a></li>
+                                  <li><a class="dropdown-item" href="almond-details.html#blueberry_nuts">Blueberry Almond Nut</a></li>                                  
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="dried-berries-details.html">dried berries</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="dried-berries-details.html#strawberry_dry">Strawberry Dried Fruit</a></li>
+                                  <li><a class="dropdown-item" href="dried-berries-details.html#dehybrated_dry">Dehydrated Dry Cranberry</a></li>
+                                  <li><a class="dropdown-item" href="dried-berries-details.html#peaches_dry_fruit">peaches Dried Fruit</a></li>                                  
+                              </ul>
+                          </li>
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item dropdown-toggle" href="drydates-details.html">Dry Dates</a>
+                              <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="drydates-details.html#black_dry_date">Black Dry Date</a></li>
+                                  <li><a class="dropdown-item" href="drydates-details.html#dried_safavi_date">Dried Safavi Date</a></li>
+                                  <li><a class="dropdown-item" href="drydates-details.html#yellow_dry_date">Yellow Dried Date</a></li>                                  
+                              </ul>
+                          </li>
+                      </ul>
                     </li>
+                    <!-- Mobile Hide coding Ends-->
                     <li class="nav-item">
                         <a class="nav-link" href="certifications.html">Certifications</a>
-                    </li>
-                    <li class="nav-item">
+                    </li><li class="nav-item">
                       <a class="nav-link" href="faq.html">Faq</a>
                     </li>
                     <li class="nav-item">
@@ -84,42 +169,40 @@
             </nav>
         </div>
         <div class="sub_links">
-            <div class="container">
-              <nav class="navbar navbar-expand-lg navbar-light p-0">           
-                <div class="navbar-collapse" id="navb">
-                  <ul class="navbar-nav mr-auto mobile_sub_links_hide">
-                    <li class="nav-item">
-                      <a class="nav-link" href="cashewnut-details.html">Cashew Nuts</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="chillies-details.html">Chillies</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link active" href="grains-details.html">Grains</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="almond-details.html">Almond Nuts</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="dried-berries-details.html">dried berries</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="drydates-details.html">Dry Dates</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2">
-                    <div class="search_section w-100">
-                      <input placeholder="Search Products" class="search_input">
-                      <button class="btn subscrib-btn btn-success my-2 my-sm-0">Search</button>
-                      <div class="clear"></div>        
-                    </div>
-                    <!-- <input class="form-control mr-sm-2" type="text" placeholder="Search Products">
-                    <button class="btn btn-success my-2 my-sm-0" type="button">Search</button> -->
-                  </form>
-                </div>
-              </nav>
+          <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light p-0">           
+              <div class="navbar-collapse" id="navb">
+                <ul class="navbar-nav mr-auto mobile_sub_links_hide">
+                  <li class="nav-item">
+                    <a class="nav-link" href="cashewnut-details.html">Cashew Nuts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="chillies-details.html">Chillies</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="grains-details.html">Grains</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="almond-details.html">Almond Nuts</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="dried-berries-details.html">dried berries</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="drydates-details.html">Dry Dates</a>
+                  </li>
+                </ul>
+                <form class="form-inline my-2">
+                  <div class="search_section w-100">
+                    <input placeholder="Search Products" class="search_input">
+                    <button class="btn subscrib-btn btn-success my-2 my-sm-0">Search</button>
+                    <div class="clear"></div>        
+                  </div>
+                </form>
+              </div>
+            </nav>
   
-            </div>
+          </div>
         </div>
     </header>
     <!-- Header Ends Here-->
@@ -493,84 +576,100 @@
             <div class="col-sm-12 p-0 ">
                 <div class="slider responsive product_slider">
                     <div class="mb-3">
-                        <div class="card border_radius5 position-relative">
+                        <div id="productList" class="card border_radius5 position-relative">
                           <div class="img-wrapper inner_image_block_main">
                             <a href="cashewnut-details.html" class="inner_image_block"><img src="images/Cashew-nut-img1.png" alt="img"></a>
                           </div>
-                          <div class="card-body">
+                          <div  class="card-body product_search_list">
                             <h6 class="pb-2"><a href="cashewnut-details.html">Cashew Nuts</a></h6>
                             <ul class="sub_categories">
                               <li><a href="cashewnut-details.html#broken_cashew">Broken Cashew Nuts</a></li>
                               <li><a href="cashewnut-details.html#bubblegum_cashew">Bubblegum Cashew Nuts</a></li>
                               <li><a href="cashewnut-details.html#roasted_cashew">Roasted And Salted Cashew Nuts</a></li>
                             </ul>
-                            <div class="text-center mt-4"><a href="products.html" class="view_all">+ View All</a></div>
+                            <div class="text-center mt-4"><a href="cashewnut-details.html" class="view_all">+ View All</a></div>
                           </div>
                         </div>
                     </div>        
                     <div class="mb-3">
-                      <div class="card border_radius5 position-relative">
+                      <div id="productList" class="card border_radius5 position-relative">
                         <div class="img-wrapper inner_image_block_main">
                           <a href="chillies-details.html" class="inner_image_block"><img src="images/chilli-img.png" alt="img"></a>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body product_search_list">
                           <h6 class="pb-2"><a href="chillies-details.html">Chillies</a></h6>
                           <ul class="sub_categories">
                             <li><a href="chillies-details.html#guntur_chilli">Guntur Chilli</a></li>
                             <li><a href="chillies-details.html#kanthari_chilli">Kanthari Chilli</a></li>
                             <li><a href="chillies-details.html#kashmiri_chilli">Kashmiri Chilli</a></li>
                           </ul>
-                          <div class="text-center mt-4"><a href="products.html" class="view_all">+ View All</a></div>
+                          <div class="text-center mt-4"><a href="chillies-details.html" class="view_all">+ View All</a></div>
                         </div>
                       </div>
                     </div>
                     <div class="mb-3">
-                      <div class="card border_radius5 position-relative">
+                      <div id="productList" class="card border_radius5 position-relative">
                         <div class="img-wrapper inner_image_block_main">
                           <a href="grains-details.html" class="inner_image_block"><img src="images/Grains_img.png" alt="img"></a>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body product_search_list">
                           <h6 class="pb-2"><a href="grains-details.html">Grains</a></h6>
                           <ul class="sub_categories">
                             <li><a href="grains-details.html#wheat_grain">Wheat Grain</a></li>
                             <li><a href="grains-details.html#yellow_maize_seeds">Yellow Maize Seeds</a></li>
                             <li><a href="grains-details.html#sorghum_grain">Sorghum Grain</a></li>
                           </ul>
-                          <div class="text-center mt-4"><a href="products.html" class="view_all">+ View All</a></div>
+                          <div class="text-center mt-4"><a href="grains-details.html" class="view_all">+ View All</a></div>
                         </div>
                       </div>
                     </div>
                     <div class="mb-3">
-                      <div class="card border_radius5 position-relative">
+                        <div id="productList" class="card border_radius5 position-relative">
+                          <div class="img-wrapper inner_image_block_main">
+                            <a href="almond-details.html" class="inner_image_block"><img src="images/almond-nuts-img1.png" alt="img"></a>
+                          </div>
+                          <div class="card-body product_search_list">
+                            <h6 class="pb-2"><a href="almond-details.html">Almond Nuts</a></h6>
+                            <ul class="sub_categories">
+                              <li><a href="almond-details.html#almond_nuts">Nachos Cheese Almond Nuts</a></li>
+                              <li><a href="almond-details.html#cal_almond_nuts">California Almond Nuts</a></li>
+                              <li><a href="almond-details.html#blueberry_nuts">Blueberry Almond Nuts</a></li>
+                            </ul>
+                            <div class="text-center mt-4"><a href="almond-details.html" class="view_all">+ View All</a></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div id="productList" class="card border_radius5 position-relative">
+                          <div class="img-wrapper inner_image_block_main">
+                            <a href="dried-berries-details.html" class="inner_image_block"><img src="images/dried-cherry-img2.png" alt="img"></a>
+                          </div>
+                          <div class="card-body product_search_list">
+                            <h6 class="pb-2"><a href="dried-berries-details.html">dried berries</a></h6>
+                            <ul class="sub_categories">
+                              <li><a href="dried-berries-details.html#strawberry_dry">Strawberry Dried Fruit</a></li>
+                              <li><a href="dried-berries-details.html#dehybrated_dry">Dehydrated Dry Cranberry</a></li>
+                              <li><a href="dried-berries-details.html#peaches_dry_fruit">peaches Dried Fruit</a></li> 
+                            </ul>
+                            <div class="text-center mt-4"><a href="dried-berries.html" class="view_all">+ View All</a></div>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                      <div id="productList" class="card border_radius5 position-relative">
                         <div class="img-wrapper inner_image_block_main">
                           <a href="drydates-details.html" class="inner_image_block"><img src="images/dry-dates-img1.png" alt="img"></a>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body product_search_list">
                           <h6 class="pb-2"><a href="drydates-details.html">Dry Dates</a></h6>
                           <ul class="sub_categories">
                             <li><a href="drydates-details.html#black_dry_date">Black Dry Date</a></li>
                             <li><a href="drydates-details.html#dried_safavi_date">Dried Safavi Date</a></li>
                             <li><a href="drydates-details.html#yellow_dry_date">Yellow Dried Dates</a></li>
                           </ul>
-                          <div class="text-center mt-4"><a href="#" class="view_all">+ View All</a></div>
+                          <div class="text-center mt-4"><a href="drydates-details.html" class="view_all">+ View All</a></div>
                         </div>
                       </div>
-                    </div>
-                    <div class="mb-3">
-                        <div class="card border_radius5 position-relative">
-                          <div class="img-wrapper inner_image_block_main">
-                            <a href="dried-berries-details.html" class="inner_image_block"><img src="images/dried-cherry-img2.png" alt="img"></a>
-                          </div>
-                          <div class="card-body">
-                            <h6 class="pb-2"><a href="dried-berries-details.html">dried berries</a></h6>
-                            <ul class="sub_categories">
-                              <li><a href="dried-berries-details.html#strawberry_dry">Strawberry Dried Fruit</a></li>
-                              <li><a href="dried-berries-details.html#dehybrated_dry">Dehydrated Dry Cranberry</a></li>
-                              <li><a href="dried-berries-details.html#peaches_dry_fruit">peaches Dried Fruit</a></li>
-                            </ul>
-                            <div class="text-center mt-4"><a href="#" class="view_all">+ View All</a></div>
-                          </div>
-                        </div>
                     </div>
                 </div>
             </div>
