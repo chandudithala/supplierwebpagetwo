@@ -118,7 +118,6 @@ header .navbar-light .navbar-nav .nav-link:hover, header .navbar-light .navbar-n
   padding: 6px 19px;
   border-radius: 30px;
   transition: all ease-in-out 0.4s;
-  /* transform: skewY(-10deg); */
   box-shadow: 0px 4px 1px #bfbfbf;
 }
 .sub_links{
@@ -173,8 +172,11 @@ header .navbar-light .navbar-nav .nav-link:hover, header .navbar-light .navbar-n
 }
 .dropdown_arrow {
   position: absolute;
-  top: 18px;
+  top: -4px;
   right: 30%;
+  width: 40px;
+  height: 40px;
+  z-index: 9999999;
 }
 .dropdown_arrow::before,
 .dropdown_arrow::after {
@@ -187,22 +189,25 @@ header .navbar-light .navbar-nav .nav-link:hover, header .navbar-light .navbar-n
   transition: 0.3s ease-in-out;
 }
 
-.dropdown_arrow::before {
-  transform: rotate(45deg);
+.product_link_arrow::before {
+  transform: rotate(45deg);    
+  position: absolute;
+  top: 19px;
+  right: 17px;
 }
 
-.dropdown_arrow::after {
+.product_link_arrow::after {
   left: 6px;
-  top: -2px;
+    top: 19px;
   transform: rotate(-45deg);
 }
 
-.cat_link.active .dropdown_arrow::before {
+.product_link_arrow.active::before {
   transform: rotate(-45deg);
   background: #ffffff;
 }
 
-.cat_link.active .dropdown_arrow::after {
+.product_link_arrow.active::after {
   transform: rotate(45deg);
   background: #ffffff;
 }
@@ -210,18 +215,89 @@ header .navbar-light .navbar-nav .nav-link:hover, header .navbar-light .navbar-n
   color: #25333c !important;
   padding: 6px 21px;
   border-radius: 30px;
-  display: block;
   position: relative;
   transition: all ease-in-out 0.4s;
 }
-.cat_link.active{
+.cat_link.active a.product_link{
   color: #ffffff !important;
   background: #f2a341;
+  border-radius: 30px;
 }
-/* header .navbar-light .navbar-nav .nav-link:last-child() {
-  padding: 6px 0 6px 21px;
-  margin:0 0 0 10px;
-} */
+.sub_menu_drop{
+  display:none;
+  background: #dddddd;
+}
+.sub_menu{
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  width:40px;
+  height:40px;
+  z-index: 9999999;
+}
+.dropdown_arrow.sub_menu.active1::before {
+  transform: rotate(45deg);
+  background: #ffffff !important;  
+}
+.dropdown_arrow.sub_menu.active1::after {
+  transform: rotate(-45deg);
+  background: #ffffff !important;
+}
+.dropdown_arrow.sub_menu::before {
+  background: #25333c !important;
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 12px;
+  right: 14px;
+}
+.dropdown_arrow.sub_menu::after { 
+  background: #25333c !important;
+  left: 10px;
+  top: 12px;
+  transform: rotate(45deg);
+}
+.mobile_sub_links_show_in li.active1 a.product_link_in {
+  color: #ffffff !important;
+  background: #f2a341;
+  border-radius: 30px;
+}
+.dropdown-menu {
+  margin: 0;
+}
+.dropdown-item {
+  padding: 7px 50px 7px 10px;
+  position: relative;  
+  transition: all ease-in-out 0.3s;
+}
+.dropdown-toggle::after {
+  position: absolute;
+  right: 10px;
+  top: 17px;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #f2a341;  
+  /* transition: all ease-in-out 0.3s; */
+}
+
+ .navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu {
+  position:relative;
+}
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top:-6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+} 
 /************************* Banner Section Start Here ********************************/
 
 .Banner_section .slick-slide {
@@ -476,7 +552,6 @@ header .navbar-light .navbar-nav .nav-link:hover, header .navbar-light .navbar-n
   border-radius: 10px;
 }
 .cer_img img {
-  height: auto;
   transition: ease-in-out 0.4s;
 }
 .certificate_section_in:hover .cer_img {
@@ -804,8 +879,8 @@ color:#0e76a8;
   text-align: center;
 }
 .album_section img{
-  height: 100%;
   padding:0 10px;
+  height: 100%;
 }
 .certification_section{
   border: solid 1px #cbcbcb;
@@ -1059,7 +1134,4 @@ color:#0e76a8;
 }
 
 
-
-
-
-
+ 

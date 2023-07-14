@@ -77,6 +77,11 @@ header .sub_links .navbar-light .navbar-nav .nav-link{
 .mobile_sub_links_hide{
   display: none;
 }
+.nav-item{
+  margin:0 0 12px;
+  position: relative;
+  padding: 0;
+}
 } 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -89,10 +94,6 @@ header .sub_links .navbar-light .navbar-nav .nav-link{
 }
 .sticky_icons{
   display: none;
-}
-.nav-item{
-  margin:0 0 12px;
-  position: relative;
 }
 .space {
   padding:30px 0 20px;
